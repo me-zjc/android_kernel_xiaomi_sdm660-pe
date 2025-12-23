@@ -290,4 +290,8 @@ config FILE_TABLE_DEBUG
 	help
 	  This option enables debug of the open files using a global filetable
 
+config KSU
+    bool "KernelSU support"
+    default n
+
 endmenu
